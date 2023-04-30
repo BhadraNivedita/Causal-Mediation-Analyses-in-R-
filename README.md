@@ -5,4 +5,13 @@ Mediation analysis is a statistical method used to examine the relationship betw
 
 There are different types of mediation analyses, but the most common one is known as "indirect effect" or "mediated effect" analysis. This approach examines the relationship between the predictor and the outcome, both directly and indirectly through the mediator. The indirect effect represents the amount of the total effect of the predictor on the outcome that is mediated by the mediator, while the direct effect represents the remaining effect of the predictor on the outcome that is not explained by the mediator.
 
+In this project a simple example is provided to understand the mediation test using R package "mediation". 
+
+
+Installation command:
+
+install.packages("mediation")
+
+
+
 

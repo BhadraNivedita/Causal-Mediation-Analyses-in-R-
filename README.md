@@ -12,6 +12,11 @@ Installation command:
 
 install.packages("mediation")
 
+'''
+data<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv') '''
+
+
+
 
 
 

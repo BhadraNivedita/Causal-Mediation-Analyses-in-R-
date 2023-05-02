@@ -12,18 +12,18 @@ Installation command:
 
 install.packages("mediation")
 
+Let's try an example. We would work on an example dataset downloaded from the website: http://static.lib.virginia.edu/statlab/materials/data/.
+
 ```
-data<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv') 
-model.M <- lm(M ~ X, data)
-summary(model.M)
-model.Y <- lm(Y ~ X + M, data)
-summary(model.Y)
-library(mediation)
-results <- mediate(model.M, model.Y, treat='X', mediator='M',
-                   boot=TRUE, sims=500)
+data<- read.csv('http://static.lib.virginia.edu/statlab/materials/data/mediationData.csv') ##loading the dataset
+model.M <- lm(M ~ X, data) ##linear model showing the relation between the variable M and X
+summary(model.M) ## summary from the linear model 
+model.Y <- lm(Y ~ X + M, data) ## We have a model showing the relation between Y and X and M as independent variables.
+summary(model.Y) ## Summary from the model Y.
+library(mediation). ## loading the library to conduct mediation test.
+res <- mediate(model.M, model.Y, treat='X', mediator='M',
+                   boot=TRUE, sims=500). ## Conducting the mdiation test assuming M as the mediator variable.
 summary(results)
-
-
 '''
 
 

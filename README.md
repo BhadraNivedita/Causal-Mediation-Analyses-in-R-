@@ -25,11 +25,3 @@ res <- mediate(model.M, model.Y, treat='X', mediator='M',
                    boot=TRUE, sims=500). ## Conducting the mdiation test assuming M as the mediator variable.
 summary(results)
 '''
-
-
-
-
-
-
-
-

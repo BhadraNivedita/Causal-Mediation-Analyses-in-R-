@@ -29,3 +29,4 @@ summary(results)
 
 ## Other packages available in R for mediation test: https://www.youtube.com/watch?v=X6bdxTukNWI
 https://library.virginia.edu/data/articles/introduction-to-mediation-analysis
+https://ademos.people.uic.edu/Chapter14.html

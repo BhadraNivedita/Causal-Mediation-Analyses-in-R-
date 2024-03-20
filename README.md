@@ -22,6 +22,9 @@ model.Y <- lm(Y ~ X + M, data) ## We have a model showing the relation between Y
 summary(model.Y) ## Summary from the model Y.
 library(mediation). ## loading the library to conduct mediation test.
 res <- mediate(model.M, model.Y, treat='X', mediator='M',
-                   boot=TRUE, sims=500). ## Conducting the mdiation test assuming M as the mediator variable.
+                   boot=TRUE, sims=500). ## Conducting the mediation test assuming M as the mediator variable.
 summary(results)
 '''
+
+
+## Other packages available in R for mediation test: https://www.youtube.com/watch?v=X6bdxTukNWI
